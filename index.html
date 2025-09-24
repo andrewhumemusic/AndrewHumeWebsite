@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Hume | Video Editor & Producer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Andrew Hume</h1>
+            <p>Creative Video Editor & Producer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Creative and technically skilled video editor and producer with lifelong experience in filming, editing, and post-production. Proficient in Adobe Premiere Pro, After Effects, Photoshop, and Logic Pro for audio production. Experienced in color grading, motion graphics, and camera operation. Passionate about crafting compelling narratives that connect with audiences across digital platforms.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Premiere Pro, After Effects, Photoshop</li>
+            <li>Color Correction & Grading</li>
+            <li>Motion Graphics & Visual Effects</li>
+            <li>Audio Production & Mixing</li>
+            <li>Lighting, Camera Operation & Live Production Support</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="video-item">
+            <h3>Motion Graphics & Editing Reel</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2LlwCi9HXKw" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <h3>Production Assistant Role</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A8sxe0I3h4Q" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:contact@andrewhume.com">contact@andrewhume.com</a></p>
+        <p>Or reach out via social media or professional networks!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Andrew Hume</p>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e){
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
